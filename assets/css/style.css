@@ -83,7 +83,7 @@ h2 {
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("../images/formbg.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -290,7 +290,84 @@ footer {
     width: 100%;
 }
 
+@keyframes footer-shrink {
+    from {
+        height: 150px;
+    }
+
+    to {
+        height: 50px;
+    }
+}
+
+@keyframes footer-enlarge {
+    from {
+        height: 50px;
+    }
+
+    to {
+        height: 150px;
+    }
+}
+
+@keyframes padding-social-links-shrink {
+    from {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    to {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@keyframes padding-social-links-enlarge {
+    from {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    to {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+
 /* Media querries */
+@media screen and (min-width:1600px) {
+    .social-networks i {
+        animation-name: padding-social-links-shrink;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    footer {
+        animation: footer-shrink 1s forwards;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    .form-section {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:1599px) {
+    .social-networks i {
+        animation-name: padding-social-links-enlarge;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    footer {
+        animation-name: footer-enlarge 1s forwards;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
 
 @media screen and (max-width:1200px) {
     #club-ethos {
