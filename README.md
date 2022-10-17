@@ -1,4 +1,4 @@
-###Love Running Project  
+ # Love Running Project  
   
   This is one of the first projects that I built within Professional Diploma in Full-Stack Software Development course made by Code Institute. 
 I only used HTML and CSS in this project. 
