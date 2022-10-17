@@ -1,3 +1,5 @@
+###Love Running Project  
+  
   This is one of the first projects that I built within Professional Diploma in Full-Stack Software Development course made by Code Institute. 
 I only used HTML and CSS in this project. 
 
@@ -13,3 +15,7 @@ Things that this website is not doing at the moment:
 - not linked to any database,
 - not using the user's cookies,
 - not using any other language than HTML and CSS.
+
+
+here is the original project's read-me file: 
+https://github.com/Code-Institute-Solutions/readme-template
