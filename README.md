@@ -1,7 +1,7 @@
  # Love Running Project  
   
-  This is one of the first projects that I built within Professional Diploma in Full-Stack Software Development course made by Code Institute. 
-I only used HTML and CSS in this project. 
+  This is one of the first sample projects provided within Professional Diploma in Full-Stack Software Development course made by Code Institute. 
+It only uses HTML and CSS. 
 
   This simple website is made out of 3 main pages: 
 - A home Page,
